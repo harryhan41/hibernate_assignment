@@ -45,17 +45,17 @@ public class Crud {
 //            Department department = new Department("tech");
 //            session.save(department);
 
-//             Department department = session.get(Department.class, 5);
-//             Employee employee = new Employee(4, "tj", 27);
+//             Department department = session.get(Department.class, 7);
+//             Employee employee = new Employee("mike", 19);
 //             employee.setDepartment(department);
 //             session.saveOrUpdate(employee);
 
 
             // delete with cascade
-//            Department department = session.get(Department.class, 5);
-//            session.delete(department);
-            Employee employee = session.get(Employee.class, 1);
-            session.delete(employee);
+            Department department = session.get(Department.class, 7);
+            session.delete(department);
+//            Employee employee = session.get(Employee.class, 9);
+//            session.delete(employee);
 
             // delete with query
 //            session.createQuery("delete from Department where id=5").executeUpdate();
@@ -90,7 +90,7 @@ public class Crud {
 //            cq.from(Employee.class);
 //            List<Employee> list = session.createQuery(cq).getResultList();
 //            list.forEach(e -> System.out.println(e));
-            
+
             session.getTransaction().commit();
             System.out.println("Done!");
         }catch (Exception e){

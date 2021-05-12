@@ -17,8 +17,7 @@ public class Department {
 
     @OneToMany(fetch = FetchType.LAZY,
                mappedBy = "department",
-               cascade = {CascadeType.PERSIST, CascadeType.MERGE,
-                          CascadeType.DETACH, CascadeType.REFRESH, CascadeType.REMOVE})
+               cascade = {CascadeType.ALL})
     private List<Employee> employees;
 
     public Department(){};
