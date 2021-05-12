@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e676e453-ed80-4a9b-9727-2f64e1ab2b1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itlize/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itlize/entity/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Crud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Crud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itlize/entity/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itlize/entity/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Crud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Crud.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itlize/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itlize/entity/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,12 +114,24 @@
       <workItem from="1620745433226" duration="6409000" />
       <workItem from="1620764602369" duration="1984000" />
       <workItem from="1620846854436" duration="60000" />
-      <workItem from="1620848356952" duration="8015000" />
+      <workItem from="1620848356952" duration="8700000" />
     </task>
+    <task id="LOCAL-00001" summary="change cascade">
+      <created>1620856921877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620856921877</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change cascade" />
+    <option name="LAST_COMMIT_MESSAGE" value="change cascade" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Assign_Data_Sources" timestamp="1620848598133">
@@ -161,6 +170,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1620745298983" />
+    <state x="263" y="7" key="CommitChangelistDialog2" timestamp="1620856921032">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="263" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1620856921032" />
     <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1620761968337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -191,6 +204,10 @@
     </state>
     <state x="201" y="68" width="981" height="707" key="SettingsEditor/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1620685017643" />
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1620748024598" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1620856935796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1620856935796" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1620856899939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -16,7 +16,8 @@ public class Employee {
     @Column(name = "age")
     private int age;
 
-    @ManyToOne(cascade= {CascadeType.PERSIST, CascadeType.MERGE,
+    @ManyToOne(fetch=FetchType.EAGER,
+              cascade= {CascadeType.PERSIST, CascadeType.MERGE,
                          CascadeType.DETACH, CascadeType.REFRESH})
     @JoinColumn(name = "department_id")
     private Department department;
