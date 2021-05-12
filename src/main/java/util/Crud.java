@@ -2,6 +2,7 @@ package util;
 
 import com.itlize.entity.Department;
 import com.itlize.entity.Employee;
+import net.bytebuddy.matcher.ElementMatcher;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -26,10 +27,6 @@ public class Crud {
             Session session = factory.getCurrentSession();
             session.beginTransaction();
 
-//            Employee employee = new Employee("cali", 21);
-//            Department department = session.get(Department.class, 1);
-//            employee.setDepartment(department);
-
             // get
 //            int id = 1;
 //            Employee employee = session.get(Employee.class, id);
@@ -43,13 +40,32 @@ public class Crud {
 //            Employee employee = session.load(Employee.class, id);
 //            System.out.println(employee);
 
+
 //             add
 //            session.save(employee);
-//            Department department = new Department("sales");
+//            Department department = new Department("tech");
 //            session.save(department);
 
+//              Department department = session.get(Department.class, 5);
+//            Employee employee = session.get(Employee.class, 4);
+//            Employee employee = new Employee(4, "tj", 27);
+//              Employee employee = new Employee("joel", 56);
+//              employee.setDepartment(department);
+//              session.saveOrUpdate(employee);
+//              System.out.println(employee);
+
+//            Department department = session.get(Department.class, 1);
+//            employee.setDepartment(department);
+
+
             // delete
-            session.createQuery("delete from Employee where id=5").executeUpdate();
+//            Department department = session.get(Department.class, 5);
+//            session.delete(department);
+            Employee employee = session.get(Employee.class, 1);
+            session.delete(employee);
+//            session.createQuery("delete from Department where id=5").executeUpdate();
+
+
 
             // update
 //            Employee e2 = new Employee(4,"tj", 27);

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e676e453-ed80-4a9b-9727-2f64e1ab2b1f" name="Default Changelist" comment="" />
+    <list default="true" id="e676e453-ed80-4a9b-9727-2f64e1ab2b1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Crud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Crud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itlize/entity/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itlize/entity/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itlize/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itlize/entity/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Crud.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Crud.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1sMHGGwe57XjgmHSteS50LqViDk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
@@ -106,7 +118,7 @@
       <workItem from="1620745433226" duration="6409000" />
       <workItem from="1620764602369" duration="1984000" />
       <workItem from="1620846854436" duration="60000" />
-      <workItem from="1620848356952" duration="3833000" />
+      <workItem from="1620848356952" duration="7289000" />
     </task>
     <servers />
   </component>
@@ -155,26 +167,26 @@
     </state>
     <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1620761968337" />
     <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1620677231479" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1620852352040">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1620856153963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1620762023953" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620852352040" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1620852352039">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620856153963" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1620856153963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="176" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1620762023953" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620852352039" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1620852352039">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620856153963" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1620856153963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="176" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1620762023952" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620852352039" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1620852352040">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620856153963" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1620856153963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="176" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1620762023953" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620852352040" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620856153963" />
     <state x="249" y="0" width="981" height="707" key="SettingsEditor" timestamp="1620748024598">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
